@@ -37,7 +37,7 @@ video.loop();
 video.speed(1);
 video.volume(0);
 }
-function gotResult(results,error){
+function gotResult(error,results){
 if(error){
     console.error(error);
     }
